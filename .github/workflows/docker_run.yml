@@ -7,7 +7,7 @@ jobs:
     # Containers must run in Linux based operating systems
     runs-on: self-hosted
     # Docker Hub image that `container-job` executes in
-    container: node:14
+    container: registry.cn-shenzhen.aliyuncs.com/ganchujx/pipt
 
     # Service containers to run with `container-job`
     services:
